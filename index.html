@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .bg-image {
+            /* The image used */
+            background-image: url("https://picsum.photos/1928/1028");
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Position text in the middle of the page/image */
+        
+        .bg-text {
+            backdrop-filter: blur(8px);
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .search {
+            border-radius: 10px;
+        }
+        
+        input[type=text] {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            border: 1px solid #2d9fd9;
+            color: #a0d18c;
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+        }
+        
+        input[type=text]:focus {
+            outline: none;
+            border: 1px solid #a0d18c;
+            color: #2d9fd9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+        <div align="center" class="search">
+            <form action="https://www.google.com/search" target="_blank" method="get">
+                <input type="hidden" value="win-1250" name="ie">
+                <input type="hidden" value="win-1250" name="oe">
+                <table bgcolor="#ffffff" class="search">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://www.google.com/"><img border="0" align="middle" alt="Google" src="./evolving_google_identity_2x1.png" /></a> <input type="text" placeholder="Enter search text..." name="q"><input type="submit" value="Hľadať na Google" name="btnG">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <p style="color: transparent;">meow</p>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-7efa8650-1c24-42ae-9217-f7b364fe5204"></div>
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
